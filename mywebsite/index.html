@@ -2,8 +2,20 @@
 <html>
 <head>
 	<title>Hello Me!</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript">
+	function getUname(){
+		var uname = document.getElementById("uname").value;
+		alert(uname);
+	}
+		
+
+	</script>
 </head>
 <body>
+<p id="myiD">inside para.</p>
+<input type="text" id="uname" placeholder="enter your username">
+<button onclick="getUname();">click me</button>
 <h1>Hello Coursera! I Love the Course, THANK YOU!!!</h1>
 </body>
 </html>
