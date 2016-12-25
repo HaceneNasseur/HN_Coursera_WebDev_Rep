@@ -1,0 +1,99 @@
+body {
+  font-size: 16px;
+  color: #fff;
+/*  background: url("../images/wood%20texturen.jpg") no-repeat;  */
+  background-color: #542a12;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.navbar {
+    min-height: 100px;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #d6bf95;
+    border-radius: 0px;
+    border: 0;
+}
+
+.navbar-header {
+    border: 100%;
+}
+
+/*
+#logo-img {
+    background: url("../images/restaurant-logo-small.jpg") no-repeat;
+    width: 150px;
+    height: 150px;        
+    margin: 10px 15px 10px 0;
+}
+*/
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    color: #542a12;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand span {
+    font-size: 1.2em;
+    color: #542a12;
+/*    text-transform: uppercase;*/
+/*    font-weight: bold;*/
+    text-shadow: 1px 1px 1px #222;
+}
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #542a12;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #542a12;
+}
+
+.navbar-collapse {
+    color: coral;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+
+p {
+    font-family: 'Ultra', serif;
+    font-weight: 100;
+}
+
+#page-heading {
+    margin-bottom: 40px;
+}
+
+#Section1 {
+    margin-bottom: 40px;
+}
+
+h7 {
+    margin-bottom: 40px;
+}
